@@ -10,7 +10,7 @@ aws configure --profile cwave
 export AWS_PROFILE=cwave
 
 # kubectl rename context-name
-kubectl config rename-context old-name new-name
+kubectl config rename-context old-name new-name # or ~/.kube/config 의 context name 변경
 
 # create docker volume
 # docker volume create --name local_code --opt device=C:\Users\KHP59\cwave-kkk --opt o=bind

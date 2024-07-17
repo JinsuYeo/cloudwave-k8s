@@ -1,5 +1,7 @@
-makeENV/eks/.terraform/
-makeENV/eks/.terraform.lock
-makeENV/eks/.terraform.lock.hcl
-makeENV/IDE/.env
-makeENV/IDE/password.txt
+**/.terraform/
+**/.terraform.lock
+**/.terraform.lock.hcl
+**/.env
+**/password.txt
+**/*.pem
+**/.**
